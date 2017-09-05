@@ -1,0 +1,90 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin-top: -15;
+margin-left: -11 !important;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height:100%;
+    overflow: auto;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4ca1af;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.header{
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 3px;
+  font-size: 20px;
+}
+
+footer{
+  height: 30px;
+  width: 100% !important;
+  text-align: center;
+  background: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  padding-top: 3px;
+}
+
+div.class2{
+  margin-left:25%;
+  padding:1px 16px;
+  height:90%;
+  }
+  .search_user{
+    padding: 10px !important;
+    margin-left: 150px !important;
+    margin-top: 80px;
+  }
+    input.search {
+    width: 90% !important;
+    font-size: 16px;
+    height: 2rem !important;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px !important;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: 250px;
+    margin-top: 100px;
+    color: black;
+}
+
+
+
+div.user {
+  line-height: 30px;
+  padding-left: 30px;
+
+}
+a{
+  text-decoration:inherit;
+
+}
